@@ -1,0 +1,335 @@
+/*Small devices (portrait phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 575.98px) {	
+	/*.logo {
+    width: 80%;
+}
+	.menu ul li a{
+    	text-align:right;
+    	padding:0 0px !important;   
+	}*/
+	.single {
+    	width: 100%;    	    
+	}
+	.single:nth-child(even) {
+    	margin-left: 0%;
+	}
+	.h1 {
+		font-size: 20px;    
+	}
+	.p {    
+    	font-size: 12px;    	
+    	margin: 25px 0;
+	}
+	.light {    
+    	font-size: 12px; 
+    	margin-top: 15px;   
+	}
+	.form_info button {    
+    	right: 175px;
+	}
+	.form_info input {
+    	padding: 0 0px;
+    	margin-left: -180px;
+    	width: 220px;
+    	margin-bottom: 0px;
+	}
+	.s_h1 {    
+    	font-size: 20px;    
+    	padding-top: 100px;
+    	margin-right: 0px;
+    	margin-left: -192px;
+	}
+	.button button {
+    	height: 50px;
+    	width: 160px;    
+    	font-size: 18px;    
+    	margin: 10px 0 64px 0;
+    }
+	.privacy {    
+    	margin-top: 25px;
+    	width: 100%
+	}
+	.privacy ul li a {    
+    	margin-right: 18px;
+    	font-size: 16px;    
+	}
+	.social {
+        margin-left: -132px;
+        width: 100%;
+    	float: none;
+	}
+	.social ul li {    
+    	font-size: 16px;
+    	margin: 0px 5px;
+	}
+	.social ul li a {    
+   		margin-left: 0px;
+   		font-size: 18px;    
+	}
+}
+
+/*Smaller devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*.menu ul li a{
+        text-align:right;
+        padding:0 0px !important;   
+    }*/
+	.single {
+    	width: 100%;    	    
+	}
+	.single:nth-child(even) {
+    	margin-left: 0%;
+	}
+	.h1 {
+		font-size: 22px;    
+	}
+	.p {    
+    	font-size: 12px;    	
+    	margin: 25px 0;
+	}
+	.light {    
+    	font-size: 12px;
+    	margin-top: 15px;    
+	}
+	.s_h1{	
+		font-size:26px;	
+		padding-top:100px;
+		margin-right: 76px;	
+	}
+	.form_info {
+    	margin: 70px 0;    
+	}
+	.form_info input {
+    	font-size: 16px;
+    	width: 287px;
+    	padding-right: 0px;
+    	margin-left: -40px;
+	}
+	.form_info button {    
+    	top: 16px;
+    	right: 70px;  
+	}
+	.button button {
+    	height: 50px;
+    	width: 160px;    
+    	font-size: 18px;    
+    	margin: 10px 0 64px 0;
+    }
+	.privacy {    
+    	margin-top: 25px;
+    	width: 100%
+	}
+	.privacy ul li a {    
+    	margin-right: 89px; 
+    	font-size: 18px;   
+	}
+	.social {
+        margin-left: -342px;
+        width: 100%;
+    	float: none;
+	}
+	.social ul li {    
+    	margin: 0px 7px;
+    	font-size: 20px;
+	}
+	.social ul li a {    
+   		margin-left: 0px;
+   		font-size: 18px;    
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.single {
+   	 	width: 45%;
+	}	
+	.form_info input {    
+    	font-size: 20px;
+    	height: 50px;
+    	width: 360px;    
+    	padding-right: 38px;    
+	}
+	.form_info button {    
+    	top: 16px;
+    	right: 20px;  
+	}
+	.p {    
+    	font-size: 14px;    
+	}
+	.h1 {
+		font-size: 20px;    
+	}
+	.light {    
+    	font-size: 16px;
+    	margin-top: 15px;    
+	}
+	.s_h1{		
+		margin-right: 20px;	
+	}
+	.button button {
+    	height: 50px;
+    	width: 160px;    
+    	font-size: 20px;    
+    	margin: 10px 0 64px 0;
+    }
+	.privacy ul li a {
+    	margin-right: 16px;
+    	font-size: 18px;
+    	font-weight: 400;
+	}
+	.social ul li{	
+		font-size: 18px;
+		padding-right: 20px;	
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.menu {
+    	width: 100%;
+    	margin-left: 130px;
+	}
+	.menu ul li a{        
+        padding:0 -1px !important;   
+    }
+	.form_info input {    
+    	font-size: 20px;
+    	height: 50px;
+    	width: 360px;    
+    	padding-right: 38px;    
+	}
+	.form_info button {    
+    	top: 16px;
+    	right: 16px;  
+	}
+	.p {    
+    	font-size: 16px;    
+	}
+	.light {    
+    	font-size: 18px;
+    	margin-top: 15px;    
+	}
+	.h1 {    
+    	font-size: 26px;    
+    	margin: 20px 0;
+	}
+	.button button {
+    	height: 50px;
+    	width: 160px;    
+    	font-size: 20px;    
+    	margin: 10px 0 64px 0;
+    }
+	.privacy ul li a{	
+		margin-right:30px;	
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.social ul li{	
+		font-size: 18px;
+		padding-right: 20px;	
+	}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.menu {
+    	width: 100%;
+    	margin-left: 130px;
+	}
+	.menu ul li a{        
+        padding:0 26px !important;   
+    }	
+	.form_info input {    
+    	font-size: 20px;
+    	height: 50px;
+    	width: 360px;    
+    	padding-right: 38px;    
+	}
+	.form_info button {    
+    	top: 16px; 
+    	right: 70px; 
+	}
+	.p {    
+    	font-size: 16px;    
+	}
+	.light {    
+    	font-size: 16px; 
+    	margin-top: 15px;   
+	}
+	.h1 {    
+    	font-size: 26px;    
+    	margin: 20px 0;
+	}
+	.s_h1 {    	
+    	margin-left: 0px;
+    	margin-right: 30px;
+	}
+	.sign-up {
+    	width: 506px;    
+	}
+	.button button {
+    	height: 60px;
+    	width: 160px;    
+    	font-size: 18px;    
+    	margin: 50px;
+    }
+	.privacy ul li a{	
+		margin-right:56px;	
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.social ul li{	
+		font-size: 20px;
+		padding-right: 20px;	
+	}
+}
+
+/*Extra extra large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px){
+	.menu {
+    	width: 78%;
+    	margin-left: 200px;
+	}
+	.menu ul li a{        
+        margin:0 56px;   
+    }	
+	.form_info input {    
+    	font-size: 20px;
+    	height: 50px;
+    	width: 360px;    
+    	padding-right: 38px;    
+	}
+	.form_info button {    
+    	top: 16px; 
+    	right: 16px; 
+	}
+	.p {    
+    	font-size: 16px;    
+	}
+	.light {    
+    	font-size: 18px;
+    	margin-top: 15px;    
+	}
+	.h1 {    
+    	font-size: 30px;    
+    	margin: 20px 0;
+	}
+	.button button {
+    	height: 60px;
+    	width: 160px;    
+    	font-size: 20px;    
+    	margin: 50px;
+    }
+	.privacy ul li a{	
+		margin-right:56px;	
+		font-size: 22px;
+		font-weight: 400;
+	}
+	.social ul li{	
+		font-size: 22px;
+		padding-right: 20px;	
+	}
+}
+
+
